@@ -1,5 +1,80 @@
-## Next.js App Router Course - Starter
+![Logo](docs/images/opengraph-image.png)
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+# Next.js Dashboard - App Router Fundamentals Course
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Este é um painel administrativo construído com Next.js, Tailwind CSS e autenticação, utilizando o App Router. O projeto tem o intuito de fornecer um guia com os passos para aprender a base do `Next.js`.
+
+---
+
+## Tópicos abordados no curso:
+
+- Introdução ao App Router
+- Iniciando um projeto Next.js
+- Estilização com CSS e Tailwind CSS
+- Otimização de fontes e imagens
+- Criação de layouts e páginas
+- Navegação entre páginas
+- Configuração de banco de dados
+- Busca de dados (Fetching Data)
+- Renderização estática e dinâmica
+- Streaming de dados
+- Adição de busca e paginação
+- Mutação de dados (CRUD) e cache
+- Tratamento de erros
+- Melhoria de acessibilidade
+- Adição de autenticação com `Nexj Auth`
+- Adição de metadados (SEO)
+
+## Pré-requisitos
+
+- Node.js 18+
+- pnpm (ou npm/yarn)
+- Git
+
+## Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+#Clone o projeto:
+git clone https://github.com/ismael-henrique-dev/Next.js-Dashboard-Course.git
+
+#Entre na pasta do projeto:
+cd nextjs-dashboard
+
+#Instale as dependências:
+pnpm install
+```
+
+## Scripts Disponíveis
+
+- `pnpm dev` — Inicia o servidor de desenvolvimento
+- `pnpm build` — Gera a build de produção
+- `pnpm start` — Inicia o servidor em modo produção
+- `pnpm lint` — Executa o linter
+
+## Estrutura do Projeto
+
+```
+/
+├── app/                # Páginas e rotas (App Router)
+│   ├── dashboard/      # Dashboard e subrotas
+│   ├── login/          # Página de login
+│   └── ...             # Outras rotas
+├── public/             # Arquivos estáticos e imagens
+├── ui/                 # Componentes reutilizáveis
+├── lib/                # Funções utilitárias e dados 
+├── auth.ts             # Configuração de autenticação
+├── middleware.ts       # Middlewares de autenticação/rotas
+├── tailwind.config.ts  # Configuração do Tailwind CSS
+├── next.config.js      # Configuração do Next.js
+├── package.json
+└── README.md
+```
+
+## Referências
+
+- [Documentação Next.js](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Curso Next.js App Router](https://nextjs.org/learn)
+
