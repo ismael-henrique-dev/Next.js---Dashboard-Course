@@ -8,22 +8,7 @@ Este é um painel administrativo construído com Next.js, Tailwind CSS e autenti
 
 ## Tópicos abordados no curso:
 
-- Introdução ao App Router
-- Iniciando um projeto Next.js
-- Estilização com CSS e Tailwind CSS
-- Otimização de fontes e imagens
-- Criação de layouts e páginas
-- Navegação entre páginas
-- Configuração de banco de dados
-- Busca de dados (Fetching Data)
-- Renderização estática e dinâmica
-- Streaming de dados
-- Adição de busca e paginação
-- Mutação de dados (CRUD) e cache
-- Tratamento de erros
-- Melhoria de acessibilidade
-- Adição de autenticação com `Nexj Auth`
-- Adição de metadados (SEO)
+![Logo](docs/images/course-features.png)
 
 ## Pré-requisitos
 
